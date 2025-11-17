@@ -1,0 +1,13 @@
+-- Place this LocalScript inside StarterPlayerScripts or StarterGui
+local part = workspace:FindFirstChild("Specific Player Only Door") -- replace with your part's name
+
+if part then
+    part:Destroy() -- deletes the part only for this client
+end
+
+-- Place this LocalScript inside StarterPlayerScripts or StarterGui
+local part = workspace:FindFirstChild("GP Door") -- replace with your part's name
+
+if part then
+    part:Destroy() -- deletes the part only for this client
+end
